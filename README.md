@@ -1,84 +1,90 @@
-# networking-labs
+# Cisco Networking Labs Repository
 
-# CISCO Packet Tracer Labs
+Welcome to my Packet Tracer lab repository!
 
-This repository contains a growing collection of networking labs built using Cisco Packet Tracer. My goal is to showcase and expand on my foundational knowledge and networking concepts as I progress through my CCNA studies and beyond.
-This collection is a work in progress, with new labs continually added and updated as my skills develop. Please check back regurlarly for updates.
+My goal is to showcase and reinforce hands-on networking skills and foundational knowledge. This includes core concepts, real-world configurations, and simulated enterprise-level designs — all built using Cisco Packet Tracer.
+> This collection is a work in progress, with new labs continually added and updated as my skills develop. Please check back regurlarly for updates.
 
-Each lab will include:
-- A `.pkt` Packet Tracer file
-- A brief lab description
-- Configuration steps or use example
+## Overview
+
+This repo is divided into two major sections:
+
+1. **Labs** — Smaller exercises to showcase specific CCNA topics like VLANs, OSPF, ACLs, NAT, and more.
+2. **Projects** — Larger, multi-layered simulations representing realistic enterprise environments.
+
+Each lab and project includes:
+- A Packet Tracer `.pkt` file  
+- A clear topology diagram and IP addressing table  
+- Configuration and use notes
 
 ---
 
 ## Labs Uploaded
 
-This section will be updated as labs are added.
+> _**5/23/25** This section will be updated as new labs are added._
 
-- _No labs uploaded yet. First labs coming soon._
-
----
-
-## Topics to Cover
-
-Below is a planned list of topics that will be covered through future labs.
-
-### Layer 2
-- VLANs and Inter-VLAN Routing
-- Spanning Tree Protocol (STP)
-- EtherChannel
-- Port Security
-
-### Layer 3
-- Static Routing
-- OSPF (Single and Multi-area)
-- EIGRP
-- HSRP
-
-### IP Services
-- DHCP
-- NAT (Static, Dynamic, PAT)
-- DNS Simulation
-
-### Security & Access Control
-- Standard and Extended ACLs
-
-### Network Design & Troubleshooting
-- Multi-switch topologies
-- IP subnetting and addressing
-- Redundancy and failover simulation
-- Basic wireless LAN simulation
-
-### Enterprise
----
-
-## How to Use This Repository
-
-1. Open `.pkt` files in Cisco Packet Tracer (version 8.x recommended).
-2. Refer to each lab folder's `README.md` for instructions and goals.
-3. Configure the topology and test your solution.
-4. Compare with provided configuration examples or solution notes.
-5. Optional: Watch video walkthroughs when available.
+| Topic                  | Description                                | Status       |
+|------------------------|--------------------------------------------|--------------|
+| VLANs                 | Create and verify VLANs and trunk links     | Coming Soon  |
+| Inter-VLAN Routing    | Router-on-a-stick with subinterfaces        | Coming Soon  |
+| OSPFv2                | Configure OSPF on multiple routers          | Coming Soon  |
+| ACLs                  | Standard and extended ACLs for access control | Coming Soon  |
+| NAT                   | Static, Dynamic, and PAT translations       | Coming Soon  |
+| DHCP                  | Centralized DHCP and relay configuration    | Coming Soon  |
+| STP                   | Spanning Tree Protocol behavior and tuning  | Coming Soon  |
+| HSRP                 | Gateway redundancy with HSRP                | Coming Soon  |
 
 ---
 
-## About Me
+## Projects
+> _**5/23/25** This section will be updated as new labs are added._
 
-I’m an aspiring network engineer currently studying for the CCNA certification. I have hands-on experience working with real-world networks, including:
+These simulations will showcase start to finish configurations and execution of networking scenarios
 
-- Planning and installing network topologies for multi-story buildings
-- Configuring routers, switches, and NAT for IP camera and alarm systems
-- Troubleshooting connectivity issues and assigning IP addressing/subnets
-- Running Ethernet cabling and installing RJ45 connectors
-- Building home networks and lab environments from a young age
+| Project                        | Technologies Covered                                         | Status       |
+|--------------------------------|---------------------------------------------------------------|--------------|
+| **Small Business Network**     | VLANs, static routing, DHCP, NAT, port security               | Planning     |
+| **Enterprise Campus Network**  | OSPF, HSRP, STP, DHCP, trunking, redundancy                   | Planning     |
+| **Branch Office w/ HQ**        | WAN links, static + dynamic routing, ACLs, DHCP relay         | Planning     |
+| **VLAN Access Control**        | Public/private VLAN separation, router-on-a-stick, ACLs       | Planning     |
+| **ISP-Customer NAT Gateway**   | NAT (PAT/static), ACLs, basic ISP simulation                  | Planning     |
 
-This repository serves as both a personal learning tool and a portfolio to showcase my skills to potential employers.
+---
+
+## Topics to Cover (Roadmap)
+
+This is a roadmap of topics and technologies I plan to create labs for:
+
+- VLANs, VTP, and trunking
+- Inter-VLAN routing
+- Static and dynamic routing (OSPF, EIGRP)
+- DHCP (server, relay, excluded addresses)
+- NAT and PAT
+- ACLs (standard, extended, named)
+- STP, RSTP, and loop prevention
+- HSRP and redundancy
+- Switchport security
+- Subnetting and IP addressing schemes
+- Layer 2 vs Layer 3 design
+- Device naming and documentation best practices
+- MAN layered topologies (access, distribution and core layers)
+
+---
+
+## Why This Repository?
+
+This repo is more than just practice — it's a demonstration of:
+- My passion for networking!
+- My ability to design, configure, and troubleshoot real networks
+- My commitment to learning and progressing beyond certifications
+- My attention to detail in documentation and planning
+- My readiness for networking roles and projects
 
 ---
 
 ## Contact
 
-- LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- GitHub: [https://github.com/yourusername](https://github.com/yourusername)
-- Email: youremail@example.com
+- LinkedIn: www.linkedin.com/in/bfnphillipb
+- GitHub: https://github.com/bluefirenebulous/
+- Email: bornsteinphillip@gmail.com
+
